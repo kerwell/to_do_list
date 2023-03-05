@@ -8,7 +8,7 @@ const toDo = []
 while (input.toLowerCase() !== "quit" && input.toLowerCase() !== "q"){
     if (input.toLowerCase() === 'list'){
         console.log("--------------------------------");
-        for (i=0; i < toDo.length; i++){
+        for (let i=0; i < toDo.length; i++){
             console.log(`${i}: ${toDo[i]}`);
             // reminder that i logs the index
         }
